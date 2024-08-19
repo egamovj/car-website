@@ -147,7 +147,7 @@ img {
     position: fixed;
     background-color: hsla(0, 0%, 100%, 0.1);
     top: 0;
-    right: 0;
+    right: -100%;
     width: 100%;
     height: 100%;
     backdrop-filter: blur(96px);
@@ -182,4 +182,74 @@ img {
   top: 1rem;
   right: 1rem;
   cursor: pointer;
+}
+
+.show-menu {
+  right: 0;
+}
+
+.home {
+  position: relative;
+  overflow: hidden;
+}
+
+.home__container {
+  position: relative;
+  padding-top: 4rem;
+  row-gap: 3rem;
+}
+
+.home__data {
+  text-align: center;
+}
+
+.home__title {
+  font-size: var(--h1-font-size);
+  margin-bottom: 1rem;
+}
+
+.home__subtitle {
+  font-size: var(--h3-font-size);
+  margin-bottom: 0.25rem;
+}
+
+.home__elec {
+  font-size: var(--small-font-size);
+  font-weight: 400;
+  color: var(--text-color);
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.25rem;
+}
+
+.home__elec i {
+  color: var(--first-color);
+}
+
+.home__img {
+  width: 280px;
+  justify-self: center;
+}
+
+.home__car {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 4rem;
+  margin-bottom: 2rem;
+}
+
+.home__car-name {
+  font-size: 0.625rem;
+  font-weight: 400;
+  color: var(--text-color-light);
+}
+
+.home__car-data {
+  text-align: center;
+}
+
+.home__car-number {
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-medium);
 }
