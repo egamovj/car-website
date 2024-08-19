@@ -493,3 +493,46 @@ img {
 .swiper-pagination-bullet-active {
   background: var(--first-color);
 }
+
+.features {
+  overflow: hidden;
+  position: relative;
+}
+
+.features__container {
+  padding-top: 2rem;
+  grid-template-columns: 285px;
+  justify-content: center;
+}
+
+.features__group {
+  display: grid;
+  position: relative;
+  z-index: 10;
+}
+
+.features__img {
+  width: 150px;
+  justify-self: center;
+}
+
+.features__card {
+  width: 112px;
+  background-color: hsla(0, 0%, 100%, 0.1);
+  backdrop-filter: blur(16px);
+  border-radius: 1.25rem;
+  padding: 0.75rem 2rem;
+  text-align: center;
+  color: var(--title-color);
+  position: absolute;
+}
+
+.features__card-1 {
+  top: 4rem;
+  left: 1.5rem;
+}
+
+.features__card-2 {
+  top: 8rem;
+  right: 1rem;
+}
