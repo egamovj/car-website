@@ -740,3 +740,14 @@ img {
 .logos__img:hover {
   opacity: 1;
 }
+
+
+.footer {
+  position: relative;
+  overflow: hidden;
+}
+
+.footer .shape__big,
+.footer .shape__small {
+  
+}
